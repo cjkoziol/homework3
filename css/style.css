@@ -67,10 +67,11 @@ td{
 }
 
 
-/* tr{
-  -webkit-transition: background-color .5s ease;
-  transition: background-color .5s ease;
-} */
+tr{
+  /* -webkit-transition: background-color .5s ease;
+  transition: background-color .5s ease; */
+  
+}
 
 *:focus{
   border: 36px dashed #417243;
@@ -92,7 +93,7 @@ tbody tr:last-child td:last-child{
   border-bottom-right-radius: 10px;
 }
 
-tbody:nth-child(even) {
+tr:nth-child(even) {
   background: #D1D1D1;
 }
 table tr:hover{
