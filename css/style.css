@@ -45,7 +45,7 @@ table{
 }
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
@@ -57,11 +57,10 @@ table{
 .rowhead{
   border-top: 2px solid #000000;
   border-right: 2px solid #000000;
-  vertical-align: middle;
 }
 
 td{
-  padding: 15px;
+  padding: 10px;
   border-top: 2px solid #000000;
 }
 
@@ -94,7 +93,7 @@ tbody tr:last-child td:last-child{
 tbody:nth-child(even) {
   background: #D1D1D1;
 }
-tr:hover{
+table tr:hover{
   background-color: rgba(126, 8, 32, .25);
 }
 
